@@ -1,7 +1,7 @@
 from ctypes.wintypes import CHAR
 from pydoc import doc
 import mysql.connector
-db = mysql.connector.connect(host = 'localhost', user = 'root', password = 'Alfredo0', database = 'DbProgetto')
+db = mysql.connector.connect(host = 'localhost', user = 'root', password = '*********', database = 'DbProgetto')
 
 cursore = db.cursor( )
 
